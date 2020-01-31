@@ -1,0 +1,21 @@
+>> meterpreter 
+
+migrate // migra el proceso 
+execute -f //ejecuta una aplicacion 
+
+>> Instalar openvas 
+
+apt install -y openvas
+
+openvas-setup
+
+
+>> Buscar exploit en metasploit
+
+# msfconsole
+
+msf> search windows 
+
+msf> help search
+
+msf> search name: windows/meterpreter/reverse_tcp
