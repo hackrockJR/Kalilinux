@@ -1,0 +1,13 @@
+Instalacion de kalilinix 2020.1 
+
+Descargar la version para vwware de la pagina de kali.org
+
+https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-image-download/
+
+Se instala inmportando la maquina virtual
+
+Se debe cambiar el tipo de sistema operativo en General de la maquina virtual para definir debian x10 
+
+user kali 
+password kali 
+
