@@ -1,0 +1,5 @@
+theHarvester permite recopilar informacion en internet sobre el objetivo 
+sudo theHarvester -d <dominio> -l 50 -b all -f saved.html
+
+sudo theHarvester -d <dominio> -l 50 -b all -f > saved.txt
+
