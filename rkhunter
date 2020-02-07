@@ -1,0 +1,33 @@
+rkhunter verificador de rootkit en linux
+
+http://rkhunter.sourceforge.net/ 
+
+Archivo de descarga en mi google drive
+
+Instalar>
+
+ tar xvzf rkhunter-1.3.2.tar.gz
+ 
+ cd rkhunter
+ 
+ ./installer.sh --layout default --show 
+
+(lo que hice aqui fue mostrar previó a la instalación, donde quedarían la aplicación y demás con una instalación 'default')
+(usa ./installer.sh para ver las opciones de la instalación)
+
+(ahora si realizo la instalación)
+#> ./installer.sh --layout default --install
+
+ejecutar rkhunter> 
+
+ rkhunter -c
+ 
+ rkhunter -c --sk --logfile /root/rkhunterX.txt
+ 
+ rkhunter --list   (lista de pruebas posibles)
+ 
+ #> rkhunter --enable hidden_procs,system_commands   (se ejecutan solo las pruebas deseadas)
+ 
+ rkhunter --disable system_commands   (lo contrario, se ejecutan todas las pruebas menos la indicada(s))
+ 
+ 
