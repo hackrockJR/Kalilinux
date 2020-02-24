@@ -1,7 +1,7 @@
 >> meterpreter 
 
-migrate // migra el proceso 
-execute -f //ejecuta una aplicacion 
+migrate // migra el proceso , para ocultarlo en otro valido.
+execute -f <Nombre de la aplicacion>//ejecuta una aplicacion en windows 
 
 >> Instalar openvas 
 
