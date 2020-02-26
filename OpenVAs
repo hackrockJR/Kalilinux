@@ -1,0 +1,5 @@
+>> Instalar openvas 
+
+apt install -y openvas
+
+openvas-setup
